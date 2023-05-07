@@ -1,5 +1,5 @@
 {
-  "name": "practice_styledcoponents_props",
+  "name": "practice",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -36,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "현재 아래 4문제가 주어져있고, 어른사자의 길 문제 하나가 있습니다!!\r 4문제는 필수로 해결해주시고, 어른사자의 길 문제는 선택 문제입니다. \r 하지만 이는 백엔드 연동하실 때를 대비하여 도움이 매우 되기 때문에 해보시는걸 강력 추천합니다.",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }

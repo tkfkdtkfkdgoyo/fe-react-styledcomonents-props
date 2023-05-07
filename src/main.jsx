@@ -1,25 +1,28 @@
 import React from "react";
-import Box from "./components/box";
+import styled from "styled-components";
+import Box from "./components/myBox";
 
-const Main = () => {
-  const circleColorArr = [
-    "pink",
-    "red",
-    "black",
-    "gray",
-    "green",
-    "blue",
-    "orange",
-  ];
+const PageWrapper = styled.div`
+  background-color: #D3D3D4;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+`;
+
+const Page = () => {
+  const boxColor = "white";
 
   return (
-    <>
-      <Box />
-      <Box />
-      <Box />
-      <Box />
-    </>
+    <PageWrapper>
+      <Box boxColor={boxColor} />
+    </PageWrapper>
   );
 };
 
-export default Main;
+export default Page;
+
